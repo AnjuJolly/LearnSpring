@@ -10,7 +10,7 @@ public class ErrController implements ErrorController{
 
 	@RequestMapping(PATH)
 	public String showError(){
-		return "This an error";
+		return "This is an error";
 	}
 
 	@Override
